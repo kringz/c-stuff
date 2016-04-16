@@ -9,3 +9,4 @@ int main(int argc, char *argv[]) {
 	strcopy(buffer_two, "two"); /* Put "two" into buffer_two. */
 	
 	printf("[BEFORE] buffer_two is at %p and contains \'%s\'\n", buffer_two, buffer_two);
+	printf("[BEFORE] buffer_one is at %p and contains \'%s\'\n", buffer_one, bugger_one);
